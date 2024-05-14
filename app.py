@@ -5,9 +5,9 @@ import requests
 import streamlit as st
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 st.set_page_config(layout="wide")
-st.image('NAU_logo.png', width=750)
+st.image('NAU_logo.png', width=600)
 st.header('Department of Global Languages and Cultures', divider='rainbow')
-new_title = '<p style="font-family:sans-serif; color:Green; font-size: 30px;"></p>'
+new_title = '<p style="font-family:sans-serif; color:Green; font-size: 30px;">Welcome to the Chinese Program!</p>'
 st.markdown(new_title, unsafe_allow_html=True)
 
 
